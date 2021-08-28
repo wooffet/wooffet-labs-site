@@ -1,0 +1,17 @@
+{
+  "name": "wooffetlabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "f-login": "firebase login",
+    "f-init": "firebase init",
+    "f-deploy": "firebase deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^9.16.0"
+  }
+}
