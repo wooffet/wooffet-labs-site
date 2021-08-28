@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "npm ci && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "f-login": "firebase login",
     "f-init": "firebase init",
